@@ -1,0 +1,148 @@
+EESchema Schematic File Version 2
+LIBS:conn
+LIBS:breakout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title "Box0"
+Date "03 April 2016"
+Rev "0.3"
+Comp "Mad Resistor"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1150 850  2    60   Output ~ 0
+AIN0.[0..3]
+Entry Wire Line
+	1000 1000 1100 1100
+Entry Wire Line
+	1000 1100 1100 1200
+Entry Wire Line
+	1000 1200 1100 1300
+Entry Wire Line
+	1000 1300 1100 1400
+Text Label 1450 1100 2    60   ~ 0
+AIN0.0
+Text Label 1450 1200 2    60   ~ 0
+AIN0.1
+Text Label 1450 1300 2    60   ~ 0
+AIN0.2
+Text Label 1450 1400 2    60   ~ 0
+AIN0.3
+Text HLabel 1550 1950 0    60   Input ~ 0
+AOUT0.[0..1]
+Entry Wire Line
+	1700 2100 1600 2200
+Entry Wire Line
+	1700 2200 1600 2300
+Text Label 1150 2200 0    60   ~ 0
+AOUT0.0
+Text Label 1150 2300 0    60   ~ 0
+AOUT0.1
+$Comp
+L C C2
+U 1 1 55ECDAF7
+P 2050 2100
+F 0 "C2" H 2075 2200 50  0000 L CNN
+F 1 "100nF" H 2075 2000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2088 1950 30  0001 C CNN
+F 3 "" H 2050 2100 60  0000 C CNN
+	1    2050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 55ECDB50
+P 2050 2250
+F 0 "#PWR011" H 2050 2000 50  0001 C CNN
+F 1 "GND" H 2050 2100 50  0000 C CNN
+F 2 "" H 2050 2250 60  0000 C CNN
+F 3 "" H 2050 2250 60  0000 C CNN
+	1    2050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 55ECDC11
+P 2400 2100
+F 0 "C3" H 2425 2200 50  0000 L CNN
+F 1 "100nF" H 2425 2000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2438 1950 30  0001 C CNN
+F 3 "" H 2400 2100 60  0000 C CNN
+	1    2400 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2550 1800 2    60   Input ~ 0
+ANALOG_POS
+Text GLabel 2550 1950 2    60   Input ~ 0
+ANALOG_NEG
+$Comp
+L C C1
+U 1 1 55F7FBFE
+P 2550 1150
+F 0 "C1" H 2550 1250 40  0000 L CNN
+F 1 "100nF" H 2556 1065 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2588 1000 30  0001 C CNN
+F 3 "~" H 2550 1150 60  0000 C CNN
+	1    2550 1150
+	1    0    0    -1  
+$EndComp
+Text GLabel 2450 850  0    60   Input ~ 0
+VREF_EXT
+$Comp
+L GND #PWR012
+U 1 1 5613FDE2
+P 2550 1300
+F 0 "#PWR012" H 2550 1050 50  0001 C CNN
+F 1 "GND" H 2550 1150 50  0000 C CNN
+F 2 "" H 2550 1300 60  0000 C CNN
+F 3 "" H 2550 1300 60  0000 C CNN
+	1    2550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 5614043B
+P 2400 2250
+F 0 "#PWR013" H 2400 2000 50  0001 C CNN
+F 1 "GND" H 2400 2100 50  0000 C CNN
+F 2 "" H 2400 2250 60  0000 C CNN
+F 3 "" H 2400 2250 60  0000 C CNN
+	1    2400 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1950 2050 1800
+Wire Wire Line
+	2400 1950 2550 1950
+Wire Wire Line
+	2050 1800 2550 1800
+Wire Bus Line
+	1700 1950 1550 1950
+Wire Bus Line
+	1700 1950 1700 2200
+Wire Wire Line
+	1450 1100 1100 1100
+Wire Wire Line
+	1100 1200 1450 1200
+Wire Wire Line
+	1450 1300 1100 1300
+Wire Wire Line
+	1100 1400 1450 1400
+Wire Bus Line
+	1000 850  1150 850 
+Wire Bus Line
+	1000 850  1000 1300
+Wire Wire Line
+	1150 2300 1600 2300
+Wire Wire Line
+	1150 2200 1600 2200
+Wire Wire Line
+	2450 850  2550 850 
+Wire Wire Line
+	2550 850  2550 1000
+$EndSCHEMATC
