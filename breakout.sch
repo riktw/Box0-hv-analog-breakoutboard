@@ -1,5 +1,91 @@
 EESchema Schematic File Version 2
 LIBS:conn
+LIBS:riklib
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:Zilog
+LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
+LIBS:Symbols_EN60617_13Mar2013
+LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
+LIBS:Symbols_ICs-Diskrete_RevD10
+LIBS:Symbols_ICs-Opto_RevB_16Sep2013
+LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
+LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
+LIBS:Symbols_Socket-DIN41612_RevA
+LIBS:Symbols_Transformer-Diskrete_RevA
 LIBS:breakout-cache
 EELAYER 25 0
 EELAYER END
@@ -684,7 +770,7 @@ BD D1 CF 2B EB F6 A3 7B 91 B1 A2 93 B8 C6 72 3D F0 7F 74 BF D7 4E AE D8 FE 3B 78
 D6 7D 9B 50 E4 6E 3D 82 E1 2D 40 B8 06 E7 20 A4 A9 3E 47 78 83 B9 87 70 FD 5D 96 74 CD 8D 70 29 
 E9 49 0A D7 E7 90 73 12 E9 F7 67 A1 81 EB 2A 24 93 E5 2E 03 2E 53 D6 CD 4F 38 37 6B 12 D2 33 17 
 22 64 EC CC 4E 78 C3 99 48 78 E3 79 02 F8 07 21 97 7F 62 AF B4 F6 82 FF 07 00 8F 12 59 CE 1E A3 
-8D 00 00 00 00 49 45 4E 44 AE 42 60 82 BA 
+8D 00 00 00 00 49 45 4E 44 AE 42 60 82 00 
 EndData
 $EndBitmap
 $Sheet
@@ -1812,7 +1898,7 @@ C6 18 63 8C 31 C6 18 63 8C 31 C6 18 63 8C 31 C6 18 63 8C 31 C6 18 63 8C 31 C6 18
 18 63 8C 31 C6 18 63 8C 31 C6 18 63 8C 31 C6 18 63 8C 31 C6 18 63 8C 31 C6 18 63 8C 31 C6 18 63 
 8C 31 C6 18 63 8C 31 C6 18 63 8C 31 C6 18 63 8C 31 C6 18 63 8C 31 C6 18 63 8C 31 C6 18 63 8C 31 
 C6 18 63 8C 31 C6 18 63 8C 31 C6 18 63 8C 31 C6 18 F3 FF 37 0A 46 C1 28 A0 05 00 00 ED 17 60 7B 
-AD 50 54 08 00 00 00 00 49 45 4E 44 AE 42 60 82 00 
+AD 50 54 08 00 00 00 00 49 45 4E 44 AE 42 60 82 78 
 EndData
 $EndBitmap
 $Bitmap
@@ -2911,7 +2997,7 @@ A1 50 28 14 0A 85 42 A1 50 28 14 0A 85 42 A1 50 28 14 0A 85 42 A1 50 28 14 0A 85
 85 42 A1 50 28 14 0A 85 42 A1 50 28 14 0A 85 42 A1 50 28 14 0A 85 42 A1 50 28 14 0A 85 42 A1 50 
 28 14 0A 85 42 A1 50 28 14 0A 85 42 A1 50 28 14 0A 85 42 A1 50 28 14 0A 85 42 A1 50 FC 7F 7B 70 
 40 02 00 00 00 20 E8 FF EB 7E 84 0A 00 00 00 00 00 00 00 00 00 00 00 B0 12 1F FD 8C 45 93 EB 6D 
-48 00 00 00 00 49 45 4E 44 AE 42 60 82 7F 
+48 00 00 00 00 49 45 4E 44 AE 42 60 82 00 
 EndData
 $EndBitmap
 $EndSCHEMATC
