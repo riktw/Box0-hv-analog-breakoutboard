@@ -311,7 +311,7 @@ Text GLabel 3550 2550 0    60   Output ~ 0
 ANALOG_POS
 Text GLabel 3550 2650 0    60   Output ~ 0
 ANALOG_NEG
-Text GLabel 4050 2850 2    60   Output ~ 0
+Text GLabel 3500 2850 0    60   Output ~ 0
 VREF_EXT
 Wire Wire Line
 	4050 2750 4800 2750
@@ -587,10 +587,12 @@ $EndComp
 Wire Wire Line
 	3550 3350 2950 3350
 Connection ~ 2950 3350
-Wire Wire Line
-	3550 2850 2950 2850
 Connection ~ 2950 2850
 Wire Wire Line
 	4050 3750 4800 3750
 Connection ~ 4800 3750
+Wire Wire Line
+	3550 2850 3500 2850
+Wire Wire Line
+	4050 2850 4800 2850
 $EndSCHEMATC

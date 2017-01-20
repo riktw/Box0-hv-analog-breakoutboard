@@ -234,7 +234,7 @@ F 3 "" H 5800 1600 60  0000 C CNN
 	1    5800 1600
 	1    0    0    -1  
 $EndComp
-Text GLabel 5300 1600 0    60   Input ~ 0
+Text GLabel 4900 1700 0    60   Input ~ 0
 5V
 $Comp
 L LM7233 IC1
@@ -544,10 +544,6 @@ Wire Wire Line
 	6050 1200 6050 1150
 Wire Wire Line
 	6050 1150 6000 1150
-Wire Wire Line
-	5300 1600 5400 1600
-Wire Wire Line
-	5400 1600 5400 1550
 Wire Wire Line
 	1400 3450 1950 3450
 Wire Wire Line
@@ -1496,4 +1492,21 @@ Wire Wire Line
 Connection ~ 5100 7050
 Wire Wire Line
 	7400 3500 7250 3500
+$Comp
+L F_Small F1
+U 1 1 585C4AFB
+P 5150 1700
+F 0 "F1" H 5110 1760 50  0000 L CNN
+F 1 "F_Small" H 5030 1640 50  0000 L CNN
+F 2 "SMD_Packages:SMD-1210_Pol" H 5150 1700 50  0001 C CNN
+F 3 "" H 5150 1700 50  0000 C CNN
+	1    5150 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1550 5400 1700
+Wire Wire Line
+	5400 1700 5250 1700
+Wire Wire Line
+	5050 1700 4900 1700
 $EndSCHEMATC
